@@ -1,6 +1,9 @@
 {
   "name": "my_tasks",
   "private": true,
+  "scripts": {
+    "heroku-predeploy": "npm install --dev"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
