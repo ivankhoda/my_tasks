@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "heroku-predeploy": "npm install --dev",
-    "build": "webpack -serve"
+    "build": "webpack"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
