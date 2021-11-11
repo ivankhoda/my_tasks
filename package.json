@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "heroku-predeploy": "npm install --dev",
+    "start": "node index.js",
     "build": "webpack"
   },
   "dependencies": {
