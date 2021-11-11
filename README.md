@@ -11,6 +11,7 @@ Things you may want to cover:
 - Configuration
 
 - Database creation
+
   #Before all please install PostgreSQL locally, and run it.
   To do so on MacOS, you can check this link https://formulae.brew.sh/formula/postgresql
 
