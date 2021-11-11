@@ -2,7 +2,8 @@
   "name": "my_tasks",
   "private": true,
   "scripts": {
-    "heroku-predeploy": "npm install --dev"
+    "heroku-predeploy": "npm install --dev",
+    "build": "webpack -serve"
   },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
