@@ -7,5 +7,5 @@ Rails.application.routes.draw do
   post '/projects', to: 'project#create'
   # Todos routes
   post '/todos', to: 'task#create'
-  patch '/projects/:id/todos/:id', to: 'task#update'
+  patch '/projects/:id/todo/:id', to: 'task#update'
 end
