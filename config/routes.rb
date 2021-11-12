@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  get 'project/index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # Project routes
   get '/projects', to: 'project#index'
+  # Additional method for search project by id
+  get '/projects/:id', to: 'project#show'
+
+  post '/projects', to: 'project#create'
+  # Todos routes
+  post '/todos', to: 'task#create'
+  patch '/projects/:id/todos/:id', to: 'task#update'
 end
