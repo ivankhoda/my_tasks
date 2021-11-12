@@ -12,12 +12,15 @@ Things you may want to cover:
 
 - Database creation
 
-  #Before all please install PostgreSQL locally, and run it.
+  # Before all please install PostgreSQL locally, and run it.
+
   To do so on MacOS, you can check this link https://formulae.brew.sh/formula/postgresql
 
 - Database initialization
 
-  #Before launch you project please be sure that you have initialized your database by command 'rake db:create'
+  # Before launch you project please be sure that you have initialized your database by command 'rake db:create'
+
+  # to create API please read https://guides.rubyonrails.org/getting_started.html#mvc-and-you-generating-a-model first
 
 - How to run the test suite
 
